@@ -1,7 +1,7 @@
-<div class="row marketing">
-  <h2><%= @city_name %></h4>
-  <p>Temperature: <%= @city_temperature %>˚F.</p>
+<div class="jumbotron">
+  <h2><%= @city_name %></h2>
+  <h1><%= @city_temperature %>˚F</h1>
 </div>
 <div class="row marketing">
-  <p class="pull-right"><a href="/">Main Page</a></p>
+  <p><a href="/"><< Back to Main Page</a></p>
 </div>

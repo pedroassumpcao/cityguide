@@ -20,7 +20,7 @@
       <%= @inner %>
 
       <div class="footer">
-        <p>Created using <a href="http://phoenixframework.org">Phoenix</a>.</p>
+        <small class="pull-right">Created using <a href="http://phoenixframework.org">Phoenix</a>.</small>
       </div>
 
     </div> <!-- /container -->
