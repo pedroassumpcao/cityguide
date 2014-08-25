@@ -1,1 +1,7 @@
-<h2><%= @city %></h4>
+<div class="row marketing">
+  <h2><%= @city %></h4>
+  <p>Temperature: F.</p>
+</div>
+<div class="row marketing">
+  <p class="pull-right"><a href="/">Main Page</a></p>
+</div>
