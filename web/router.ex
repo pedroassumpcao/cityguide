@@ -1,6 +1,9 @@
 defmodule Cityguide.Router do
   use Phoenix.Router
 
-  get "/", Cityguide.PageController, :index, as: :pages
+  scope alias: Cityguide do
+    get "/", PageController, :index, as: :pages
+    get "/cities/*city", CityController, :show
+  end
 
 end

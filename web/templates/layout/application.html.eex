@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Pedro Assumpcao" />
 
-    <title>Hello Phoenix!</title>
+    <title>City Guide</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
 
   <body>
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="https://github.com/phoenixframework/phoenix">Get Started</a></li>
-        </ul>
-        <span class="logo"></span>
+        <h1>City Guide</h1>
       </div>
 
       <%= @inner %>
 
       <div class="footer">
-        <p><a href="http://phoenixframework.org">phoenixframework.org</a></p>
+        <p>Created using <a href="http://phoenixframework.org">Phoenix</a>.</p>
       </div>
 
     </div> <!-- /container -->
