@@ -7,8 +7,8 @@
     <h4>Available Cities</h4>
     <ul>
       <li><a href="/cities/chicago">Chicago</a></li>
-      <li><a href="/cities/new-york">New York</a></li>
-      <li><a href="/cities/los-angeles">Los Angeles</a></li>
+      <li><a href="/cities/newyork">New York</a></li>
+      <li><a href="/cities/losangeles">Los Angeles</a></li>
       <li><a href="/cities/austin">Austin</a></li>
       <li><a href="/cities/philadelphia">Philadelphia</a></li>
     </ul>

@@ -1,5 +1,8 @@
 %{"cowboy": {:package, "1.0.0"},
   "cowlib": {:package, "1.0.0"},
+  "current_weather": {:git, "git://github.com/pedroassumpcao/current_weather.git", "81954b2ef4537fdb60eec8a32a0fbdfbd0749070", []},
+  "hackney": {:git, "git://github.com/benoitc/hackney.git", "c5af75c883c10a036d5c8de15daacd1a3b7d27de", []},
+  "idna": {:git, "git://github.com/benoitc/erlang-idna.git", "5089240e653ce254273da9cff57952a60b1d2c51", [tag: "1.0.1"]},
   "inflex": {:package, "0.2.4"},
   "linguist": {:package, "0.1.1"},
   "phoenix": {:git, "git://github.com/phoenixframework/phoenix.git", "c33172f3bbd9b96291d0d1fb7d6608d0ec968a55", []},

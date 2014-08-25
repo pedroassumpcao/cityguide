@@ -13,7 +13,7 @@ defmodule Cityguide.Mixfile do
   def application do
     [
       mod: { Cityguide, [] },
-      applications: [:phoenix, :cowboy, :logger]
+      applications: [:phoenix, :cowboy, :logger, :inets, :hackney]
     ]
   end
 
@@ -25,7 +25,8 @@ defmodule Cityguide.Mixfile do
   defp deps do
     [
       {:phoenix, github: "phoenixframework/phoenix"},
-      {:cowboy, "~> 1.0.0"}
+      {:cowboy, "~> 1.0.0"},
+      {:current_weather, github: "pedroassumpcao/current_weather"}
     ]
   end
 end

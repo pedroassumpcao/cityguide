@@ -1,6 +1,6 @@
 <div class="row marketing">
-  <h2><%= @city %></h4>
-  <p>Temperature: F.</p>
+  <h2><%= @city_name %></h4>
+  <p>Temperature: <%= @city_temperature %>˚F.</p>
 </div>
 <div class="row marketing">
   <p class="pull-right"><a href="/">Main Page</a></p>
